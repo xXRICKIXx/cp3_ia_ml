@@ -1,0 +1,131 @@
+{
+  "criterios": [
+    "doçura",
+    "acidez",
+    "crocância",
+    "suculência",
+    "vitamina C"
+  ],
+  "frutas": [
+    {
+      "id": 1,
+      "nome": "Maçã",
+      "categoria": "Fruta",
+      "preco_kg": 7.9,
+      "estoque_kg": 40,
+      "imagem": "src/assets/maca.svg",
+      "vetor": [
+        6,
+        4,
+        9,
+        6,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Banana",
+      "categoria": "Fruta",
+      "preco_kg": 5.5,
+      "estoque_kg": 60,
+      "imagem": "src/assets/banana.svg",
+      "vetor": [
+        8,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Laranja",
+      "categoria": "Cítrica",
+      "preco_kg": 4.2,
+      "estoque_kg": 80,
+      "imagem": "src/assets/laranja.svg",
+      "vetor": [
+        6,
+        6,
+        3,
+        9,
+        9
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Morango",
+      "categoria": "Fruta",
+      "preco_kg": 14.9,
+      "estoque_kg": 25,
+      "imagem": "src/assets/morango.svg",
+      "vetor": [
+        7,
+        5,
+        3,
+        8,
+        8
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Uva",
+      "categoria": "Fruta",
+      "preco_kg": 11.0,
+      "estoque_kg": 35,
+      "imagem": "src/assets/uva.svg",
+      "vetor": [
+        9,
+        3,
+        4,
+        8,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Abacaxi",
+      "categoria": "Tropical",
+      "preco_kg": 8.9,
+      "estoque_kg": 18,
+      "imagem": "src/assets/abacaxi.svg",
+      "vetor": [
+        8,
+        7,
+        3,
+        9,
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Manga",
+      "categoria": "Tropical",
+      "preco_kg": 9.5,
+      "estoque_kg": 30,
+      "imagem": "src/assets/manga.svg",
+      "vetor": [
+        9,
+        3,
+        2,
+        8,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Limão",
+      "categoria": "Cítrica",
+      "preco_kg": 6.0,
+      "estoque_kg": 50,
+      "imagem": "src/assets/limao.svg",
+      "vetor": [
+        1,
+        10,
+        3,
+        7,
+        9
+      ]
+    }
+  ]
+}
