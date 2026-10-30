@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hortifruti Vila Verde</title>
+  <link rel="stylesheet" href="src/css/estilo.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <h1>Hortifruti Vila Verde</h1>
+    <p>Busque uma fruta ou descubra qual combina com o seu gosto.</p>
+  </header>
+
+  <main class="painel">
+    <section class="bloco catalogo" aria-labelledby="t-cat">
+      <h2 id="t-cat">Catálogo</h2>
+      <div class="busca">
+        <label for="busca">Buscar fruta</label>
+        <input id="busca" type="text" placeholder="Ex.: manga" autocomplete="off">
+        <button id="btn-buscar" type="button">Buscar</button>
+      </div>
+      <p id="aviso" class="aviso" role="alert"></p>
+      <div id="grade" class="grade"></div>
+    </section>
+
+    <aside class="lateral">
+      <section class="bloco" aria-labelledby="t-det">
+        <h2 id="t-det">Detalhes</h2>
+        <div id="detalhe" class="detalhe"><p>Clique em uma fruta para ver preço, estoque e perfil.</p></div>
+      </section>
+
+      <section class="bloco" aria-labelledby="t-rec">
+        <h2 id="t-rec">Qual fruta combina comigo?</h2>
+        <div id="sliders"></div>
+        <button id="btn-rec" type="button">Recomendar</button>
+        <ol id="resultado" class="resultado"></ol>
+      </section>
+
+      <section class="bloco telemetria" aria-labelledby="t-tel">
+        <h2 id="t-tel">Telemetria</h2>
+        <dl id="tel"></dl>
+      </section>
+    </aside>
+  </main>
+
+  <script type="py" src="src/python/main.py" config='{"packages":["numpy"],"files":{"src/python/dados.json":"dados.json"}}'></script>
+</body>
+</html>
